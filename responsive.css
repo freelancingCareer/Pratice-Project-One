@@ -137,8 +137,8 @@
 
 @media all and (max-width: 500px) {
     .leftBarrar h2 {
-        width: 200px;
-        height: 40px;
+        width: 220px;
+        height: 60px;
     }
 
     .socialIcon ul li a i {
