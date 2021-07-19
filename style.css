@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+html, body { overflow-x: hidden; }
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #f0f0f0;
+    --secondary-color: #000;
+ 
+}
+
+.dark-theme {
+    --primary-color: #000;
+    --secondary-color: #f0f0f0;
+}
+
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background:  url('images/loader.gif') no-repeat center;
+    z-index: 9999;
+    background-color: #f0f0f0;
+    
+}
+
+.wholeWrap {
+    background: var(--primary-color);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+/* start header area */
+header {
+    padding: 0 25px;
+    background: var(--primary-color);
+    padding-top: 6px;
+}
+
+.headerWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-area {
+    margin-right: auto;
+}
+
+.logo-area img {
+    max-width: 60%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+/* menu bar */
+
+.manuIcon {
+	display: none;
+}
+
+.nav-area {
+    display: block;
+}
+
+.nav-area img {
+    width: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.nav-area ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-area ul li {
+    list-style: none;
+    float: left;
+    padding: 26px 20px;
+}
+
+.nav-area ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.nav-area ul li a:hover {
+    color: #23a0ff;
+}
+
+.leftBarrar span {
+    color: #23a0ff;
+}
+
+/* end header area */
+
+/* start bannar area */
+
+
+.leftBarrar {
+    float: left;
+    width: 55%;
+    margin-top: 120px;
+}
+
+.leftBarrar h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    color: var(--secondary-color);
+}
+
+.leftBarrar p {
+    font-size: 21px;
+    text-align: justify;
+    line-height: 27px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    color: var(--secondary-color);
+}
+
+.leftBarrar button {
+    padding: 10px 30px;
+    font-size: 21px;
+    text-transform: capitalize;
+    border: 2px solid #23a0ff;
+    border-radius: 8px;
+    transition: .3s;
+    font-weight: bold;
+    cursor: pointer;
+    background: #23a0ff;
+    color: #f0f0f0
+}
+
+.leftBarrar button:hover {
+    background: #f0f0f0;
+    color: #23a0ff;
+}
+
+.rightBannar {
+    width: 43%;
+    float: right;
+}
+
+.rightBannar img {
+    width: 100%;
+    padding-top: 80px;
+}
+
+.socialIcon {
+    position: fixed;
+    right: 0;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.socialIcon ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.socialIcon ul li {
+    list-style: none;
+    
+}
+
+.socialIcon ul li a {
+    text-decoration: none;
+}
+
+.socialIcon ul li a i {
+    font-size: 30px;
+    width: 52px;
+    height: 52px;
+    padding: 10px 6px 6px;
+}
+
+i.fab.fa-facebook-f {
+    background: #4267B2;
+    color: #f0f0f0;
+}
+
+i.fab.fa-youtube{
+    background: #FF0000;
+    color: #f0f0f0;
+}
+
+
+i.fab.fa-linkedin-in {
+    background: #0e76a8;
+    color: #f0f0f0;
+}
+
+i.fab.fa-twitter {
+    background:#00acee;
+    color: #f0f0f0;
+}
+
+i.fas.fa-basketball-ball {
+    Background: #ea4c89;
+    color: #f0f0f0; 
+}
+
+
+     
+
+
+
+/* end bannar area */

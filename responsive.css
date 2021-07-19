@@ -1,0 +1,154 @@
+
+@media all and (max-width: 1115px) {
+
+    header {
+        padding: 0 2px;
+        padding-top: 0;
+    }
+    .leftBarrar h2 {
+        font-size: 35px;
+    }
+
+    .leftBarrar button {
+        padding: 6px 18px;
+        font-size: 18px;
+    }
+
+    .leftBarrar h2 {
+        margin-bottom: 48px;
+        font-size: 28px;
+    }
+
+    .socialIcon ul li a i {
+        font-size: 25px;
+        width: 47px;
+        height: 47px;
+        padding: 8px 5px 5px;
+    }
+}
+
+@media all and (max-width: 715px) {
+
+    .leftBarrar h2 {
+        width: 390px;
+    }
+
+    .leftBarrar p {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+
+    .socialIcon ul li a i {
+        font-size: 20px;
+        width: 42px;
+        height: 42px;
+        padding: 7px 4px 4px;
+    }
+
+    .leftBarrar button {
+        padding: 5px 14px;
+        font-size: 14px;
+       
+    }
+}
+
+@media all and (max-width: 670px) {
+
+    #preloader {
+        background-size: 100px;
+    }
+
+    .logo-area img {
+        max-width: 48%;
+    }
+
+    .leftBarrar {
+        margin-top: 70px;
+    }
+
+    .manuIcon {
+		display: block;
+		font-size: 30px;
+		cursor: pointer;
+		float: right;
+		margin-top: 18px;
+        color: #23a0ff;
+        margin-right: 27px;
+	}
+
+    .nav-area  {
+		position: fixed;
+		top: 70px;
+		left: -100%;
+		display: block;
+		width: 100%;
+		background: #23a0ff;
+		min-height: 100vh;
+		transition: .8s;
+		padding-left: 20px;
+		padding-top: 10px;
+        text-align: center;
+	}
+
+    .show-nav-area {
+		left: 0;
+	}
+
+    .nav-area ul li {
+        list-style: none;
+        float: none;
+        padding: 10px 12px;
+        display: block;
+    }
+
+    .nav-area img {
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .nav-area ul li a:hover {
+        color: rgb(197, 194, 194);
+    }
+
+    
+}
+
+@media all and (max-width: 550px) {
+    .leftBarrar h2 {
+        margin-bottom: 60px;
+        font-size: 24px;
+    }
+
+    .leftBarrar p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 60px;
+    }
+
+    .socialIcon ul li a i {
+        font-size: 17px;
+        width: 37px;
+        height: 37px;
+        padding: 7px 3px 3px;
+    }
+
+ 
+}
+
+@media all and (max-width: 500px) {
+    .leftBarrar h2 {
+        width: 200px;
+        height: 40px;
+    }
+
+    .socialIcon ul li a i {
+        font-size: 14px;
+        width: 25px;
+        height: 25px;
+        padding: 7px 2px 2px;
+    }
+
+    .nav-area {
+        transition: all .5s ease;
+    }
+}
